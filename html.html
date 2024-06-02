@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Explorer</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Discover Your Next Adventure</h2>
+        <button onclick="exploreNow()">Explore Now</button>
+    </section>
+
+    <section id="canvas-section">
+        <h2>Travel Explorer Canvas</h2>
+        <canvas id="myCanvas" width="500" height="500"></canvas>
+        <button onclick="draw()">Draw</button>
+    </section>
+
+    <section id="destinations">
+        <h2>Top Destinations</h2>
+        <div class="destination">
+            <img src="images/destination1.jpg" alt="Destination 1">
+            <h3>Destination 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="destination">
+            <img src="images/destination2.jpg" alt="Destination 2">
+            <h3>Destination 2</h3>
+            <p>Nullam hendrerit, justo at elementum dignissim, purus lacus volutpat orci.</p>
+        </div>
+        <div class="destination">
+            <img src="images/destination3.jpg" alt="Destination 3">
+            <h3>Destination 3</h3>
+            <p>Praesent aliquam, risus a bibendum feugiat, libero sapien aliquet mauris.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Explorer. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
