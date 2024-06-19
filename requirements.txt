@@ -9,3 +9,4 @@ platformdirs==4.2.2
 requests==2.32.3
 urllib3==2.2.1
 virtualenv==20.26.2
+Django>=3.2,<4.0
