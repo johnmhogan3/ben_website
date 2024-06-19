@@ -1,0 +1,324 @@
+Last login: Thu Jun 13 18:03:15 on ttys000
+hogan@Johns-MacBook-Pro-2021 ~ % python --version
+zsh: command not found: python
+hogan@Johns-MacBook-Pro-2021 ~ % python3 --version
+
+Python 3.12.3
+hogan@Johns-MacBook-Pro-2021 ~ %  pip install --user pipenv 
+
+Collecting pipenv
+  Downloading pipenv-2024.0.1-py3-none-any.whl.metadata (19 kB)
+Requirement already satisfied: certifi in /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages (from pipenv) (2022.12.7)
+Collecting setuptools>=67 (from pipenv)
+  Downloading setuptools-70.0.0-py3-none-any.whl.metadata (5.9 kB)
+Collecting virtualenv>=20.24.2 (from pipenv)
+  Downloading virtualenv-20.26.2-py3-none-any.whl.metadata (4.4 kB)
+Collecting distlib<1,>=0.3.7 (from virtualenv>=20.24.2->pipenv)
+  Downloading distlib-0.3.8-py2.py3-none-any.whl.metadata (5.1 kB)
+Collecting filelock<4,>=3.12.2 (from virtualenv>=20.24.2->pipenv)
+  Downloading filelock-3.15.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting platformdirs<5,>=3.9.1 (from virtualenv>=20.24.2->pipenv)
+  Downloading platformdirs-4.2.2-py3-none-any.whl.metadata (11 kB)
+Downloading pipenv-2024.0.1-py3-none-any.whl (3.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 12.3 MB/s eta 0:00:00
+Downloading setuptools-70.0.0-py3-none-any.whl (863 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 863.4/863.4 kB 22.8 MB/s eta 0:00:00
+Downloading virtualenv-20.26.2-py3-none-any.whl (3.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 23.6 MB/s eta 0:00:00
+Downloading distlib-0.3.8-py2.py3-none-any.whl (468 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 468.9/468.9 kB 12.3 MB/s eta 0:00:00
+Downloading filelock-3.15.1-py3-none-any.whl (15 kB)
+Downloading platformdirs-4.2.2-py3-none-any.whl (18 kB)
+Installing collected packages: distlib, setuptools, platformdirs, filelock, virtualenv, pipenv
+  WARNING: The script virtualenv is installed in '/Users/hogan/Library/Python/3.11/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts pipenv and pipenv-resolver are installed in '/Users/hogan/Library/Python/3.11/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed distlib-0.3.8 filelock-3.15.1 pipenv-2024.0.1 platformdirs-4.2.2 setuptools-70.0.0 virtualenv-20.26.2
+hogan@Johns-MacBook-Pro-2021 ~ % cd /Users/hogan/Desktop/Ben Website
+cd: string not in pwd: /Users/hogan/Desktop/Ben
+hogan@Johns-MacBook-Pro-2021 ~ % cd/ /Users/hogan/Desktop/Ben Website
+zsh: no such file or directory: cd/
+hogan@Johns-MacBook-Pro-2021 ~ % cd /Users/hogan/Desktop/Ben Website
+cd: string not in pwd: /Users/hogan/Desktop/Ben
+hogan@Johns-MacBook-Pro-2021 ~ % /Users/hogan/Desktop/           
+zsh: permission denied: /Users/hogan/Desktop/
+hogan@Johns-MacBook-Pro-2021 ~ % cd /Users/hogan/Desktop/Ben Website
+cd: string not in pwd: /Users/hogan/Desktop/Ben
+hogan@Johns-MacBook-Pro-2021 ~ % cd /Users/hogan/Desktop/                      
+hogan@Johns-MacBook-Pro-2021 Desktop % ls
+Ben Website				Kemper:Anderson
+Desktop John Hogan's MacBook Pro 2023	Lee Homepage Video
+hogan@Johns-MacBook-Pro-2021 Desktop % cd /Ben Website
+cd: string not in pwd: /Ben
+hogan@Johns-MacBook-Pro-2021 Desktop % cd /Ben_Website
+cd: no such file or directory: /Ben_Website
+hogan@Johns-MacBook-Pro-2021 Desktop % cd /Ben Website/
+cd: string not in pwd: /Ben
+hogan@Johns-MacBook-Pro-2021 Desktop % cd Ben\ Website/ 
+hogan@Johns-MacBook-Pro-2021 Ben Website % pipenv install requests
+zsh: command not found: pipenv
+hogan@Johns-MacBook-Pro-2021 Ben Website % $ pipenv install requests
+zsh: command not found: $
+hogan@Johns-MacBook-Pro-2021 Ben Website % pipenv install requests  
+zsh: command not found: pipenv
+hogan@Johns-MacBook-Pro-2021 Ben Website % pip install pipenv
+
+Requirement already satisfied: pipenv in /Users/hogan/Library/Python/3.11/lib/python/site-packages (2024.0.1)
+Requirement already satisfied: certifi in /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages (from pipenv) (2022.12.7)
+Requirement already satisfied: setuptools>=67 in /Users/hogan/Library/Python/3.11/lib/python/site-packages (from pipenv) (70.0.0)
+Requirement already satisfied: virtualenv>=20.24.2 in /Users/hogan/Library/Python/3.11/lib/python/site-packages (from pipenv) (20.26.2)
+Requirement already satisfied: distlib<1,>=0.3.7 in /Users/hogan/Library/Python/3.11/lib/python/site-packages (from virtualenv>=20.24.2->pipenv) (0.3.8)
+Requirement already satisfied: filelock<4,>=3.12.2 in /Users/hogan/Library/Python/3.11/lib/python/site-packages (from virtualenv>=20.24.2->pipenv) (3.15.1)
+Requirement already satisfied: platformdirs<5,>=3.9.1 in /Users/hogan/Library/Python/3.11/lib/python/site-packages (from virtualenv>=20.24.2->pipenv) (4.2.2)
+hogan@Johns-MacBook-Pro-2021 Ben Website % pip3 install pipenv
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try brew install
+    xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a Python library that isn't in Homebrew,
+    use a virtual environment:
+    
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+    
+    If you wish to install a Python application that isn't in Homebrew,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. You can install pipx with
+    
+    brew install pipx
+    
+    You may restore the old behavior of pip by passing
+    the '--break-system-packages' flag to pip, or by adding
+    'break-system-packages = true' to your pip.conf file. The latter
+    will permanently disable this error.
+    
+    If you disable this error, we STRONGLY recommend that you additionally
+    pass the '--user' flag to pip, or set 'user = true' in your pip.conf
+    file. Failure to do this can result in a broken Homebrew installation.
+    
+    Read more about this behavior here: <https://peps.python.org/pep-0668/>
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+hogan@Johns-MacBook-Pro-2021 Ben Website % brew install pipenv
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+######################################################################### 100.0%
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pipenv/manifests/2024.0.1
+######################################################################### 100.0%
+==> Fetching dependencies for pipenv: certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/manifests/2024.6.2
+######################################################################### 100.0%
+==> Fetching certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/blobs/sha256:09d9ee1944
+######################################################################### 100.0%
+==> Fetching pipenv
+==> Downloading https://ghcr.io/v2/homebrew/core/pipenv/blobs/sha256:b4f3ff7ff90
+######################################################################### 100.0%
+==> Installing dependencies for pipenv: certifi
+==> Installing pipenv dependency: certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/manifests/2024.6.2
+Already downloaded: /Users/hogan/Library/Caches/Homebrew/downloads/c5e737fe145a300b594bb9e4fffb08a872bab7fd28d5b3d03d75a374122b76ea--certifi-2024.6.2.bottle_manifest.json
+==> Pouring certifi--2024.6.2.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/certifi/2024.6.2: 27 files, 25.9KB
+==> Installing pipenv
+==> Pouring pipenv--2024.0.1.arm64_sonoma.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/pipenv/2024.0.1: 1,300 files, 17.7MB
+==> Running `brew cleanup pipenv`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> pipenv
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+hogan@Johns-MacBook-Pro-2021 Ben Website % pipenv run python main.py
+Creating a virtualenv for this project...
+Pipfile: /Users/hogan/Desktop/Ben Website/Pipfile
+Using default python from /opt/homebrew/Cellar/pipenv/2024.0.1/libexec/bin/python (3.12.3) to create virtualenv...
+⠸ Creating virtual environment...created virtual environment CPython3.12.3.final.0-64 in 293ms
+  creator CPython3macOsBrew(dest=/Users/hogan/.local/share/virtualenvs/Ben_Website-HUyw3OHs, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, via=copy, app_data_dir=/Users/hogan/Library/Application Support/virtualenv)
+    added seed packages: pip==24.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+✔ Successfully created virtual environment!
+Virtualenv location: /Users/hogan/.local/share/virtualenvs/Ben_Website-HUyw3OHs
+Creating a Pipfile for this project...
+Traceback (most recent call last):
+  File "/Users/hogan/Desktop/Ben Website/main.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+hogan@Johns-MacBook-Pro-2021 Ben Website % pipenv shell
+
+Launching subshell in virtual environment...
+ . /Users/hogan/.local/share/virtualenvs/Ben_Website-HUyw3OHs/bin/activate      
+hogan@Johns-MacBook-Pro-2021 Ben Website %  . /Users/hogan/.local/share/virtualenvs/Ben_Website-HUyw3OHs/bin/activate
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % pipenv install requests 
+
+Installing requests...
+Resolving requests...
+Added requests to Pipfile's [packages] ...
+✔ Installation Succeeded
+Pipfile.lock not found, creating...
+Locking [packages] dependencies...
+Building requirements...
+Resolving dependencies...
+✔ Success!
+Locking [dev-packages] dependencies...
+Updated Pipfile.lock (1977acb1ba9778abb66054090e2618a0a1f1759b1b3b32afd8a7d404ba18b4fb)!
+Installing dependencies from Pipfile.lock (18b4fb)...
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % pipenv run python main.py
+Your IP is 74.135.161.250
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % pipenv run
+Usage: pipenv run [OPTIONS] COMMAND [ARGS]...
+Try 'pipenv run -h' for help.
+
+Error: Missing argument 'COMMAND'.
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % pip install virtualenv
+Collecting virtualenv
+  Using cached virtualenv-20.26.2-py3-none-any.whl.metadata (4.4 kB)
+Collecting distlib<1,>=0.3.7 (from virtualenv)
+  Using cached distlib-0.3.8-py2.py3-none-any.whl.metadata (5.1 kB)
+Collecting filelock<4,>=3.12.2 (from virtualenv)
+  Using cached filelock-3.15.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting platformdirs<5,>=3.9.1 (from virtualenv)
+  Using cached platformdirs-4.2.2-py3-none-any.whl.metadata (11 kB)
+Using cached virtualenv-20.26.2-py3-none-any.whl (3.9 MB)
+Using cached distlib-0.3.8-py2.py3-none-any.whl (468 kB)
+Using cached filelock-3.15.1-py3-none-any.whl (15 kB)
+Using cached platformdirs-4.2.2-py3-none-any.whl (18 kB)
+Installing collected packages: distlib, platformdirs, filelock, virtualenv
+Successfully installed distlib-0.3.8 filelock-3.15.1 platformdirs-4.2.2 virtualenv-20.26.2
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % virtualenv --version
+
+virtualenv 20.26.2 from /Users/hogan/Library/Python/3.11/lib/python/site-packages/virtualenv/__init__.py
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % virtualenv venv
+created virtual environment CPython3.11.3.final.0-64 in 316ms
+  creator CPython3Posix(dest=/Users/hogan/Desktop/Ben Website/venv, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/hogan/Library/Application Support/virtualenv)
+    added seed packages: pip==24.0, setuptools==69.5.1, wheel==0.43.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % brew tap heroku/brew && brew install heroku
+
+==> Tapping heroku/brew
+Cloning into '/opt/homebrew/Library/Taps/heroku/homebrew-brew'...
+remote: Enumerating objects: 1963, done.
+remote: Counting objects: 100% (348/348), done.
+remote: Compressing objects: 100% (224/224), done.
+remote: Total 1963 (delta 114), reused 342 (delta 111), pack-reused 1615
+Receiving objects: 100% (1963/1963), 265.65 KiB | 2.04 MiB/s, done.
+Resolving deltas: 100% (510/510), done.
+Tapped 2 formulae (23 files, 353.3KB).
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+
+==> Fetching heroku/brew/heroku
+==> Downloading https://cli-assets.heroku.com/versions/8.11.5/df5cd30/heroku-v8.
+######################################################################### 100.0%
+==> Installing heroku from heroku/brew
+==> Caveats
+To use the Heroku CLI's autocomplete --
+  Via homebrew's shell completion:
+    1) Follow homebrew's install instructions https://docs.brew.sh/Shell-Completion
+        NOTE: For zsh, as the instructions mention, be sure compinit is autoloaded
+              and called, either explicitly or via a framework like oh-my-zsh.
+    2) Then run
+      $ heroku autocomplete --refresh-cache
+  OR
+  Use our standalone setup:
+    1) Run and follow the install steps:
+      $ heroku autocomplete
+
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/heroku/8.11.5: 27,179 files, 171.4MB, built in 23 seconds
+==> Running `brew cleanup heroku`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % heroku login
+ ›   Warning: Our terms of service have changed: https://dashboard.heroku.com/terms-of-service
+heroku: Press any key to open up the browser to login or q to exit: 
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/959abfcd-ae12-41a9-84ef-1eebecca6b2b?requestor=SFMyNTY.g2gDbQAAAA43NC4xMzUuMTYxLjI1MG4GAFjZ9hOQAWIAAVGA.228DsLQupLSrsuuwqhBzqjP9hGOSUOiz0APkUc0Daws
+Logging in... done
+Logged in as john@godooley.com
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % heroku create ben_website
+Creating ⬢ ben_website... !
+ ▸    Name must start with a letter, end with a letter or digit and can only contain lowercase letters, digits, and dashes.
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % heroku create ben-website
+Creating ⬢ ben-website... !
+ ▸    Name ben-website is already taken
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % web: node app.js
+zsh: command not found: web:
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % web: node app.js
+zsh: command not found: web:
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % git clone https://github.com/johnmhogan3/ben_website
+Cloning into 'ben_website'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 12 (delta 2), reused 8 (delta 1), pack-reused 0
+Receiving objects: 100% (12/12), done.
+Resolving deltas: 100% (2/2), done.
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % python3 --version
+Python 3.12.3
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % pipenv lock -r > requirements.txt
+Usage: pipenv lock [OPTIONS]
+Try 'pipenv lock -h' for help.
+
+Error: No such option: -r
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % pipenv run pip freeze > requirements.txt
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % web: node app.js
+zsh: command not found: web:
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % herok ben_website
+zsh: command not found: herok
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % herolu ben_website
+zsh: command not found: herolu
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % heroku ben_website
+ ›   Warning: ben_website is not a heroku command.
+Did you mean dyno:resize? [y/n]: n
+ ›   Error: Run heroku help for a list of available commands.
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % n
+zsh: command not found: n
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % heroku login
+heroku: Press any key to open up the browser to login or q to exit: 
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/6c15beea-e163-4883-b53f-42f24ee79dae?requestor=SFMyNTY.g2gDbQAAAA43NC4xMzUuMTYxLjI1MG4GAOjqBBSQAWIAAVGA.dKaqnR1mEWW4k3hxt_uAlK1Mj3H5XivrFD4yuXdPFNE
+Logging in... done
+Logged in as john@godooley.com
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % web: 
+zsh: command not found: web:
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % web
+zsh: command not found: web
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % heroku git:remote -a ben-website
+    Error: Command failed: git remote
+    fatal: not a git repository (or any of the parent directories): .git
+
+    Code: 128
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % git init
+
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/hogan/Desktop/Ben Website/.git/
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % heroku git:remote -a ben-website
+
+set git remote heroku to https://git.heroku.com/ben-website.git
+(Ben Website) hogan@Johns-MacBook-Pro-2021 Ben Website % 
